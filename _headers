@@ -1,0 +1,2 @@
+/templates/index.html
+  max-age=2628000, must-revalidate, public
