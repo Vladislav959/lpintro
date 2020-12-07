@@ -3,6 +3,8 @@
 <title>Большое обновление!</title>
 <link rel="icon" href="/logo.png">
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
     @font-face{
     font-family:"Euclid";
@@ -11,6 +13,9 @@
     *{
     box-sizing:border-box
     }
+a{
+text-decoration:none;
+}
     body{
     font-family:'Euclid';
     margin:0;
@@ -22,38 +27,64 @@ font-weight:300;
 }
 .message h1{
 margin: 10px 0;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     text-align: center;
-    font-size: 2.1em;
+font-size:1.85em;
     }
 .msg{
 background: #02b478;
     padding: 15px;
-    border-radius: 14px;
+    border-radius: 15px;
 }
 .msg p{
     color: white;
     margin: 0;
     font-size: 1.1em;
-}</style>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+}
+.vk{
+background: #2787f5;
+width:fit-content;
+    padding:11px;
+margin-top:15px;
+    border-radius: 10px;
+}
+.vk p{
+    color: white;
+    margin: 0;
+    font-size: 1.05em;
+}
+@media(max-width:590px){
+.message{
+border-radius:20px;
+border-top-left-radius:0!important;
+border-top-right-radius:0!important;
+margin:0!important;
+width:100vw!important;
+padding-bottom:20px!important;
+}
+.msg p:last-of-type{
+margin-top:8px!important;
+}
+}
+</style>
 </head>
 <body>
 <div class="message" style="
-    padding: 15px 25px;
+    padding: 15px 21px;
     background: #f7f7f7;
     width: 550px;
     height: fit-content;
     margin: auto;
-    border-radius: 15px;
+    border-radius: 17px;
     margin-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 16px;
 "><h1>Скоро обновление!</h1>
     <div class="msg">
-    <p>Сейчас мы работаем над новым обновлением.</p>
+    <p>Сейчас мы работаем над большим обновлением.</p>
         <p style="
     margin-top: 6px;
 ">В нём мы добавим много новых функций и улучшим производительность.</p></div>
+<div class="vk"><a href="https://vk.com/learnpearls"><p>Наша группа ВК</p></a></div>
 </div>
 
 
