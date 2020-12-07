@@ -61,15 +61,17 @@ margin-top:15px;
 }
     .message{
         opacity:0;
-    animation:.3s mainanim;
+    animation:1s mainanim;
         animation-fill-mode: forwards;
     }
     @keyframes mainanim{
         from{
         opacity:0;
+        transform: translateY(-10px);
         }
         to{
         opacity:1;
+        transform: translateY(0px);
         }
     }
 @media(max-width:590px){
@@ -97,6 +99,7 @@ margin-top:8px!important;
     border-radius: 17px;
     margin-top: 30px;
     padding-bottom: 18px;
+    transform: translateY(0px);
 "><h1>Скоро обновление!</h1>
     <div class="msg">
     <p>Сейчас мы работаем над большим обновлением.</p>
